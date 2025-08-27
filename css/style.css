@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+.body {
+  font-family: "DM Sans", Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-bottom: 1px solid #d1d5db;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(2.5px);
+}
+.header-logo {
+  margin-left: 150px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+  flex-grow: 1;
+}
+.header-nav-link {
+  text-decoration: none;
+  color: #73818e;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
