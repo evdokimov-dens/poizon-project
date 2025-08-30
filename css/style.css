@@ -163,3 +163,12 @@ html {
 .hero-nav-item:not(:last-child) {
   margin-bottom: 16px;
 }
+.swiper-slide {
+  display: inline-flex;
+  padding: 30px 29px 29px 29px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  border-radius: 25px;
+  background: #f1f5f9;
+}
