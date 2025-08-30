@@ -163,12 +163,86 @@ html {
 .hero-nav-item:not(:last-child) {
   margin-bottom: 16px;
 }
-.swiper-slide {
-  display: inline-flex;
-  padding: 30px 29px 29px 29px;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 20px;
-  border-radius: 25px;
+.categories {
+  display: flex;
+  align-items: center;
+  margin-top: 66px;
+  margin-bottom: 70px;
+  margin-left: 199px;
+}
+.categories-title {
+  color: #1f2a37;
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.categories-title2 {
+  color: #73818e;
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 722px;
+}
+.card-list {
+  display: flex;
+  list-style: none;
+  gap: 51px;
+}
+.card-item {
+  display: flex;
+  align-items: center;
   background: #f1f5f9;
+  width: 635px;
+  height: 307px;
+  border-radius: 25px;
+}
+.card-item-block {
+  flex: 1 1 0;
+  margin-left: 29px;
+}
+.card-item-img {
+  background: #f1f5f9 cover no-repeat;
+  border-radius: 12px;
+  width: 248px;
+  height: 248px;
+  object-fit: contain;
+}
+.card-item-title {
+  color: #1f2a37;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-item-text {
+  color: #73818e;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-item-button {
+  display: inline-flex;
+  width: 124px;
+  height: 51px;
+  padding: 11px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: none;
+  background: #fff;
+  color: #000;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
