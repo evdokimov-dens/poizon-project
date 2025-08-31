@@ -7,6 +7,10 @@ html {
 .body {
   font-family: "DM Sans", Arial, sans-serif;
   font-family: "Inter", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
+.content {
+  max-width: 90vh;
 }
 .navbar {
   display: flex;
@@ -163,14 +167,13 @@ html {
 .hero-nav-item:not(:last-child) {
   margin-bottom: 16px;
 }
-.categories {
+.categories-header {
   display: flex;
   align-items: center;
   margin-top: 66px;
-  margin-bottom: 70px;
   margin-left: 199px;
 }
-.categories-title {
+.categories-header-title {
   color: #1f2a37;
   font-family: "DM Sans";
   font-size: 40px;
@@ -178,40 +181,47 @@ html {
   font-weight: 700;
   line-height: normal;
 }
-.categories-title2 {
+.categories-header-title1 {
   color: #73818e;
   font-family: "DM Sans";
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-right: 722px;
+  margin-right: 800px;
 }
-.card-list {
-  display: flex;
-  list-style: none;
+.custom-arrow {
+  display: inline-flex;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 666px;
+  border: none;
+  opacity: 0.8;
+  background: #fff;
+  box-shadow: 0 0 4.7px 0 rgba(26, 43, 59, 0.15);
+}
+.categories-list {
   gap: 51px;
 }
-.card-item {
-  display: flex;
-  align-items: center;
+.categories-item {
+  display: flex !important; /* горизонтальное расположение текста и картинки */
+  align-items: center; /* выравнивание по вертикали */
   background: #f1f5f9;
-  width: 635px;
-  height: 307px;
-  border-radius: 25px;
+  border-radius: 24px;
+  min-width: 320px;
+  max-width: 745px;
+  min-height: 307px;
 }
-.card-item-block {
-  flex: 1 1 0;
+
+.categories-block {
+  flex: 1 1 0; /* текст занимает всё доступное пространство */
+}
+.categories-block {
   margin-left: 29px;
 }
-.card-item-img {
-  background: #f1f5f9 cover no-repeat;
-  border-radius: 12px;
-  width: 248px;
-  height: 248px;
-  object-fit: contain;
-}
-.card-item-title {
+.categories-title {
   color: #1f2a37;
   font-family: "DM Sans";
   font-size: 24px;
@@ -219,17 +229,20 @@ html {
   font-weight: 700;
   line-height: normal;
 }
-.card-item-text {
+.categories-text {
   color: #73818e;
   font-family: "DM Sans";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-right: 20px;
 }
-.card-item-button {
+.categories-img {
+  margin-right: 29px;
+}
+.categories-button {
   display: inline-flex;
-  width: 124px;
   height: 51px;
   padding: 11px 12px;
   justify-content: center;
@@ -239,6 +252,9 @@ html {
   border-radius: 100px;
   border: none;
   background: #fff;
+}
+.categories-button-link {
+  text-decoration: none;
   color: #000;
   font-family: "Noto Sans";
   font-size: 16px;
