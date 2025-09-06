@@ -262,3 +262,105 @@ html {
   font-weight: 400;
   line-height: normal;
 }
+.new-shoes-title {
+  display: flex;
+  justify-content: center;
+  color: #1f2a37;
+  font-family: "DM Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 134px;
+}
+.new-shoes-swiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.new-shoes-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.new-shoes-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.new-shoes-item:not(:last-child) {
+  margin-right: 127px;
+}
+.new-shoes-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.new-shoes-text-brand {
+  color: #8e8e8e;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 9px;
+}
+.new-shoes-text-coins {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 23px;
+}
+.new-shoes-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 93px;
+}
+.new-shoes-arrows-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 42px;
+  margin-left: 42px;
+}
+.new-shoes-button {
+  display: inline-flex;
+  width: 188px;
+  height: 49px;
+  padding: 11px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  border: none;
+  background: #1f2a37;
+  color: #fff;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  margin-top: 54px;
+}
