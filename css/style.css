@@ -15,7 +15,6 @@ html {
 .navbar {
   display: flex;
   align-items: center;
-  position: fixed;
   width: 100%;
   height: 97px;
   left: 0;
@@ -363,4 +362,181 @@ html {
   line-height: normal;
   cursor: pointer;
   margin-top: 54px;
+}
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 124px;
+}
+.order-cost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 540px;
+  height: 563px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: rgba(87, 191, 193, 0.06);
+  margin-left: 142px;
+}
+.order-cost-title {
+  color: #050f0f;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 67px;
+  margin-right: 102px;
+  margin-left: 102px;
+}
+.order-cost-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 59px;
+  gap: 10px;
+  border-radius: 100px;
+  border: 2px solid #57bfc1;
+  padding: 0;
+  margin: 0;
+}
+.order-cost-button-text {
+  color: rgba(87, 191, 193, 0.5);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 20px 30px;
+}
+.button-order {
+  display: flex;
+  align-items: center;
+}
+.order-cost-button-shoes {
+  display: flex;
+  width: 219px;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 100px;
+  background: rgba(87, 191, 193, 0.15);
+  margin-right: 12px;
+}
+.order-cost-button-shoes-text {
+  color: #57bfc1;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.order-arrows {
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+  background-color: #57bfc1;
+  border-radius: 180px;
+  border: none;
+}
+.order-cost-text {
+  color: #050f0f;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.order-cost-text-cost {
+  color: #050f0f;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.order-cost-text-post {
+  color: rgba(5, 15, 15, 0.5);
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 62px;
+}
+.shoes-cost {
+  margin-right: 142px;
+}
+.shoes-cost-img {
+  width: 1032px;
+  height: 583px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #57bfc1;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.footer-info-list {
+  list-style: none;
+  width: 350px;
+}
+.footer-info-list:not(:last-child) {
+  margin-right: 30px;
+}
+.footer-info-item-first {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 47px;
+}
+.footer-info-item {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 27px;
 }
