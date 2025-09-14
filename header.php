@@ -15,7 +15,7 @@
   </head>
   <body>
     <nav class="navbar">
-      <a href="/index.html" class="header-logo">
+      <a href="/index.php" class="header-logo">
         <svg class="logo-svg" width="49" height="35">
           <use href="img/sprite.svg#logo"></use>
         </svg>
