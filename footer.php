@@ -1,9 +1,13 @@
 <footer class="footer-info">
       <ul class="footer-info-list">
-        <li class="footer-info-item-first">Помощь</li>
-        <a href="/question.html" class="footer-info-link-item"><li class="footer-info-item">Частые вопросы</li></a>
-        <li class="footer-info-item">Доставка и самовывоз</li>
-      </ul>
+  <li class="footer-info-item-first">Помощь</li>
+  <li class="footer-info-item">
+    <a href="/question.php" class="footer-info-link-item">Частые вопросы</a>
+  </li>
+  <li class="footer-info-item">
+    <a href="/delivery.php" class="footer-info-link-item"> Доставка и самовывоз</a>
+  </li>
+</ul>
       <ul class="footer-info-list">
         <li class="footer-info-item-first">Политика и условия</li>
         <li class="footer-info-item">Обмен и возврат</li>

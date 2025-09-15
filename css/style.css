@@ -612,7 +612,9 @@ html {
   line-height: normal;
   text-decoration: none;
 }
-.footer-info-link-item {
+.footer-info-link-item,
+.footer-info-link-item:visited {
+  color: #1f2a37;
   text-decoration: none;
 }
 .faq {
@@ -709,4 +711,36 @@ html {
   padding-left: 46px;
   padding-bottom: 8px;
   max-width: 70%;
+}
+.delivery {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.delivery-content {
+  width: 962px;
+}
+.delivery-way {
+  display: flex;
+  justify-content: center;
+}
+.delivery-title {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.delivery-way-title {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
