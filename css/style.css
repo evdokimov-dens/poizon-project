@@ -729,7 +729,7 @@ html {
   leading-trim: both;
   text-edge: cap;
   font-family: "Inter";
-  font-size: 500px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -755,6 +755,101 @@ html {
   line-height: normal;
 }
 .delivery-order-text {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.delivery-moscow-text {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.delivery-russia-text {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.delivery-margiela-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 20px 0; /* Добавьте отступы сверху и снизу */
+  margin: 20px 0;
+}
+.delivery-margiela-content::before,
+.delivery-margiela-content::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 121px;
+  height: 1px;
+  background-color: #000;
+  transform: translateX(-50%) translateY(-50%);
+  backface-visibility: hidden;
+}
+
+.delivery-margiela-content::before {
+  top: 0;
+}
+
+.delivery-margiela-content::after {
+  bottom: 0;
+}
+.delivery-margiela-text {
+  text-align: center;
+  max-width: 861px;
+  color: #1f2a37;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.delivery-pickup-text-item {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+.delivery-pickup-item {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: -20px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.delivery-pickup-text {
   color: #1f2a37;
   leading-trim: both;
   text-edge: cap;
