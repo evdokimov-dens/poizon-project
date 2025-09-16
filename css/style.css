@@ -729,7 +729,7 @@ html {
   leading-trim: both;
   text-edge: cap;
   font-family: "Inter";
-  font-size: 50px;
+  font-size: 500px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -742,5 +742,25 @@ html {
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
+  line-height: normal;
+}
+.delivery-order {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 50;
+  line-height: normal;
+}
+.delivery-order-text {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
 }
