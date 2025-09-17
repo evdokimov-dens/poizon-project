@@ -10,7 +10,8 @@
 </ul>
       <ul class="footer-info-list">
         <li class="footer-info-item-first">Политика и условия</li>
-        <li class="footer-info-item">Обмен и возврат</li>
+        <li class="footer-info-item">
+          <a href="/exchange.php" class="footer-info-link-item">Обмен и возврат</a></li>
         <li class="footer-info-item">Политика конфиденциальности</li>
         <li class="footer-info-item">Условия предоставления услуг</li>
       </ul>

@@ -859,3 +859,15 @@ html {
   font-weight: 400;
   line-height: normal;
 }
+.exchange {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.exchange-content {
+  width: 962px;
+}
+.exchange-block {
+  display: flex;
+  justify-content: center;
+}
