@@ -871,3 +871,66 @@ html {
   display: flex;
   justify-content: center;
 }
+.exchange-title {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.exchange-block-title {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.exchange-title-mini {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.how-exchange-title {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.how-exchange-text {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.how-exchange-list {
+  margin-left: -20px;
+}
+.how-exchange-item {
+  color: var(--text, #1f2a37);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
