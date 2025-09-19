@@ -104,8 +104,7 @@ html {
 }
 .header-button-link1 {
   color: #f9ffff;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
@@ -116,8 +115,7 @@ html {
 }
 .header-button-link2 {
   color: #fff;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 13px;
   font-style: normal;
@@ -385,8 +383,7 @@ html {
 .order-cost-title {
   color: #050f0f;
   text-align: center;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 30px;
   font-style: normal;
@@ -412,8 +409,7 @@ html {
 }
 .order-cost-button-text {
   color: rgba(87, 191, 193, 0.5);
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 20px;
   font-style: normal;
@@ -441,8 +437,7 @@ html {
 .order-cost-button-shoes-text {
   color: #57bfc1;
   text-align: center;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 20px;
   font-style: normal;
@@ -462,8 +457,7 @@ html {
 .order-cost-text {
   color: #050f0f;
   text-align: center;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 25px;
   font-style: normal;
@@ -474,8 +468,7 @@ html {
 }
 .order-cost-text-cost {
   color: #050f0f;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 25px;
   font-style: normal;
@@ -485,8 +478,7 @@ html {
 .order-cost-text-post {
   color: rgba(5, 15, 15, 0.5);
   text-align: center;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 17px;
   font-style: normal;
@@ -522,8 +514,7 @@ html {
 }
 .footer-info-item-first {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 18px;
   font-style: normal;
@@ -533,8 +524,7 @@ html {
 }
 .footer-info-item {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 18px;
   font-style: normal;
@@ -556,8 +546,7 @@ html {
 }
 .order-now-link {
   color: #fff;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 19.189px;
   font-style: normal;
@@ -591,8 +580,7 @@ html {
 }
 .footer-button-link1 {
   color: #000;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 18px;
   font-style: normal;
@@ -603,8 +591,7 @@ html {
 }
 .footer-button-link2 {
   color: #73818e;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 14px;
   font-style: normal;
@@ -627,8 +614,7 @@ html {
 }
 .faq-title {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 28px;
   font-style: normal;
@@ -726,8 +712,7 @@ html {
 }
 .delivery-title {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 50px;
   font-style: normal;
@@ -736,8 +721,7 @@ html {
 }
 .delivery-way-title {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 30px;
   font-style: normal;
@@ -746,8 +730,7 @@ html {
 }
 .delivery-order {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 30px;
   font-style: normal;
@@ -756,8 +739,7 @@ html {
 }
 .delivery-order-text {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
@@ -766,8 +748,7 @@ html {
 }
 .delivery-moscow-text {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
@@ -776,8 +757,7 @@ html {
 }
 .delivery-russia-text {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
@@ -816,8 +796,7 @@ html {
   max-width: 861px;
   color: #1f2a37;
   text-align: center;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 20px;
   font-style: normal;
@@ -826,8 +805,7 @@ html {
 }
 .delivery-pickup-text-item {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
@@ -838,8 +816,7 @@ html {
 }
 .delivery-pickup-item {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
@@ -851,8 +828,7 @@ html {
 }
 .delivery-pickup-text {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
@@ -873,8 +849,7 @@ html {
 }
 .exchange-title {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 50px;
   font-style: normal;
@@ -883,8 +858,7 @@ html {
 }
 .exchange-block-title {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 30px;
   font-style: normal;
@@ -893,8 +867,7 @@ html {
 }
 .exchange-title-mini {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 30px;
   font-style: normal;
@@ -903,8 +876,7 @@ html {
 }
 .how-exchange-title {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 30px;
   font-style: normal;
@@ -913,8 +885,7 @@ html {
 }
 .how-exchange-text {
   color: #1f2a37;
-  leading-trim: both;
-  text-edge: cap;
+
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
@@ -925,9 +896,55 @@ html {
   margin-left: -20px;
 }
 .how-exchange-item {
-  color: var(--text, #1f2a37);
-  leading-trim: both;
-  text-edge: cap;
+  color: #1f2a37;
+
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.send-title {
+  color: #1f2a37;
+
+  font-family: "Inter";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.send-text {
+  color: #1f2a37;
+
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.refund-title {
+  color: #1f2a37;
+
+  font-family: "Inter";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.refund-text {
+  color: #1f2a37;
+
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.refund-list {
+  margin-left: -20px;
+}
+.refund-item {
+  color: #1f2a37;
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
