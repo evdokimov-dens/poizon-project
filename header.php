@@ -25,7 +25,7 @@
           <a href="#" class="header-nav-link">Одежда</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Обувь</a>
+          <a href="shoes.php" class="header-nav-link">Обувь</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Аксессуары</a>

@@ -12,8 +12,10 @@
         <li class="footer-info-item-first">Политика и условия</li>
         <li class="footer-info-item">
           <a href="/exchange.php" class="footer-info-link-item">Обмен и возврат</a></li>
-        <li class="footer-info-item">Политика конфиденциальности</li>
-        <li class="footer-info-item">Условия предоставления услуг</li>
+        <li class="footer-info-item">
+          <a href="/politics.php" class="footer-info-link-item">Политика конфиденциальности</li></a>
+        <li class="footer-info-item">
+          <a href="/conditions.php" class="footer-info-link-item">Условия предоставления услуг</a></li>
       </ul>
       <ul class="footer-info-list">
         <li class="footer-info-item-first">Служба клиентской поддержки</li>
