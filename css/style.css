@@ -104,7 +104,6 @@ html {
 }
 .header-button-link1 {
   color: #f9ffff;
-
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
@@ -115,7 +114,6 @@ html {
 }
 .header-button-link2 {
   color: #fff;
-
   font-family: "Inter";
   font-size: 13px;
   font-style: normal;
@@ -950,4 +948,34 @@ html {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.shoes-content {
+  max-width: 1940px;
+  margin-right: 144px;
+  margin-left: 150px;
+}
+.shoes-block {
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 63px;
+  margin-top: 53px;
+}
+.shoes-title {
+  color: #1f2a37;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.shoes-text {
+  color: #1f2a37;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
 }
