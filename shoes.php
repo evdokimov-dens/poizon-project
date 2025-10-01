@@ -23,6 +23,30 @@
       <input class="custom-range" type="range" min="0" max="334485" step="1" value="0">
       <input class="custom-range" type="range" min="0" max="334485" step="1" value="334485">
     </div>
+    <div class="costs-contant">
+      <div class="costs-price">
+        <p class="costs-price-text">От</p>
+        <button class="costs-price-button">
+          <p class="costs-price-button-text">3 076</p>
+          <p class="costs-price-button-text">₽</p>
+        </button>
+      </div>
+      <div class="costs-price">
+        <p class="costs-price-text">До</p>
+        <button class="costs-price-button">
+          <p class="costs-price-button-text">334485</p>
+          <p class="costs-price-button-text">₽</p>
+        </button>
+      </div>
+    </div>
+    <div class="footer-price-filter">
+      <button class="footer-price-filter-button-reset">
+        <p class="footer-price-filter-text1">Сбросить</p>
+      </button>
+      <button class="footer-price-filter-button-complite">
+        <p class="footer-price-filter-text">Готово</p>
+      </button>
+      </div>
   </div>
 </section>
 <? include_once('footer.php');?>

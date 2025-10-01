@@ -1037,7 +1037,7 @@ html {
     display: block;
     width: 90%;
     height: 8px;
-    background: var(--primary-600, #1c64f2);
+    background: #e5e7eb;
     position: absolute;
     border-radius: 4px;
   }
@@ -1049,7 +1049,7 @@ html {
     top: 0;
     background-color: transparent;
     z-index: 0;
-    width: 100%;
+    width: 90%;
     &:focus {
       outline: none;
     }
@@ -1127,4 +1127,97 @@ html {
       box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     }
   }
+}
+.costs-contant {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.costs-price {
+  margin-left: 17px;
+  margin-right: 18px;
+  margin-bottom: 26px;
+}
+.costs-price-text {
+  color: var(--text, #1f2a37);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.costs-price-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 144px;
+  height: 38px;
+  padding: 0 13px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid var(--stroke, #d1d5db);
+}
+.costs-price-button-text {
+  color: var(--text, #1f2a37);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-price-filter {
+  display: flex;
+  width: 100%;
+  height: 94px;
+  padding: 27px 18px 27px 17px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 132px;
+  flex-shrink: 0;
+  border-radius: 0 0 20px 20px;
+  background: rgba(87, 191, 193, 0.05);
+}
+.footer-price-filter-button-reset {
+  display: flex;
+  width: 107px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid var(--stroke, #d1d5db);
+}
+.footer-price-filter-text1 {
+  color: var(--text, #1f2a37);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.footer-price-filter-button-complite {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: var(--text, #1f2a37);
+}
+.footer-price-filter-text {
+  color: var(--white, #fff);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
 }
