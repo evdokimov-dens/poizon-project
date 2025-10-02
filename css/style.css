@@ -1009,6 +1009,7 @@ html {
   border: 1px solid #1aaaea;
 }
 .price-filter-container {
+  display: none;
   width: 374px;
   height: 300px;
   border-radius: 20px;
@@ -1175,7 +1176,7 @@ html {
   height: 94px;
   padding: 27px 18px 27px 17px;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   gap: 132px;
   flex-shrink: 0;
   border-radius: 0 0 20px 20px;
@@ -1220,4 +1221,60 @@ html {
   font-weight: 400;
   line-height: normal;
   cursor: pointer;
+}
+.checkbox-content {
+  display: none;
+  width: 374px;
+  height: 691px;
+  border-radius: 20px;
+  border: 1px solid var(--stroke, #d1d5db);
+  margin-top: 71px;
+}
+.checkbox-content-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+  margin-left: 17px;
+  margin-bottom: 26px;
+}
+.checkbox-item input {
+  display: none;
+}
+.checkmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 0.5px solid #d1d5db;
+  border-radius: 4px;
+  background: #f9fafb;
+}
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--text, #1f2a37);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 77.778% */
+}
+.checkbox-item input:checked + .checkmark {
+  background: #000;
+  border-color: #000;
+}
+.checkbox-item input:checked + .checkmark::after {
+  content: "✓";
+  color: white;
+}
+.checkbox-content-size {
+  display: none;
+  width: 374px;
+  height: 531px;
+  border-radius: 20px;
+  border: 1px solid var(--stroke, #d1d5db);
+  margin-top: 71px;
 }
