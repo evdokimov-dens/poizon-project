@@ -1278,3 +1278,63 @@ html {
   border: 1px solid var(--stroke, #d1d5db);
   margin-top: 71px;
 }
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 69px;
+  margin-top: 63px;
+  margin-bottom: 150px;
+}
+.product-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+}
+.product-card img {
+  width: 100%;
+  object-fit: cover; /* чтобы изображение правильно вписывалось */
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-title {
+  color: #1f2a37;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+.product-text {
+  color: #8e8e8e;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 13px;
+}
+.product-text-costs {
+  color: var(--text, #1f2a37);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 21px;
+  margin-bottom: 36px;
+}

@@ -192,5 +192,55 @@
       </button>
       </div>
   </div>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="/img/nike-dunk.jpg" alt="" class="product-img">
+      <div class="product-info">
+        <h3 class="product-title">Dunk Low WMNS "White / Black"</h3>
+        <p class="product-text">NIKE</p>
+        <p class="product-text-costs">22.000 ₽</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="/img/nike-dunk.jpg" alt="" class="product-img">
+      <div class="product-info">
+        <h3 class="product-title">Dunk Low Retro "Black / White"</h3>
+        <p class="product-text">NIKE</p>
+        <p class="product-text-costs">23.000 ₽</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="/img/wmns-dunk.jpg" alt="" class="product-img">
+      <div class="product-info">
+        <h3 class="product-title">Dunk Low WMNS "Venice"</h3>
+        <p class="product-text">NIKE</p>
+        <p class="product-text-costs">25.000 ₽</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="/img/sb-dunk.jpg" alt="" class="product-img">
+      <div class="product-info">
+        <h3 class="product-title">SB Dunk Low "Mummy"</h3>
+        <p class="product-text">NIKE</p>
+        <p class="product-text-costs">49.000 ₽</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="/img/wmns-dunk1.jpg" alt="" class="product-img">
+      <div class="product-info">
+        <h3 class="product-title">Dunk Low Disrupt 2 WMNS "Pale Ivory"</h3>
+        <p class="product-text">NIKE</p>
+        <p class="product-text-costs">32.000 ₽</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="/img/dunk-low.jpg" alt="" class="product-img">
+      <div class="product-info">
+        <h3 class="product-title">Dunk Low "Fossil Rose"</h3>
+        <p class="product-text">NIKE</p>
+        <p class="product-text-costs">27.000 ₽</p>
+      </div>
+    </div>
+  </div>
 </section>
 <? include_once('footer.php');?>
