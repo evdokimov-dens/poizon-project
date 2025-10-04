@@ -194,11 +194,13 @@
   </div>
   <div class="product-grid">
     <div class="product-card">
+      <a href="/dunk.php" class="product-link">
       <img src="/img/nike-dunk.jpg" alt="" class="product-img">
       <div class="product-info">
-        <h3 class="product-title">Dunk Low WMNS "White / Black"</h3>
-        <p class="product-text">NIKE</p>
-        <p class="product-text-costs">22.000 ₽</p>
+          <h3 class="product-title">Dunk Low WMNS "White / Black"</h3>
+          <p class="product-text">NIKE</p>
+          <p class="product-text-costs">22.000 ₽</p>
+        </a>
       </div>
     </div>
     <div class="product-card">
