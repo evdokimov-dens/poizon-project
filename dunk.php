@@ -21,7 +21,92 @@
       <p class="air-jordan-text1">Все налоги и таможенные сборы включены.
 Стоимость доставки рассчитывается на этапе оформления заказа.</p>
       <p class="air-jordan-text-birka">*Бирка на ваших кроссовках поможет выбрать правильный размер.</p>
-    </div>
-  </div>
-</section>
+      <div class="jordan-size-container">
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+         <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+         <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+         <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+         <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+        <div class="jordan-size-flex">
+          <p class="jordan-size-text">US 3.5</p>
+          <p class="jordan-size-text1">128.000</p>
+        </div>
+      </div>
+      <button class="jordan-size-bye-botton">
+        <p class="jordan-size-bye-text">Купить</p>
+      </button>
+    </div> <!-- Закрытие .air-jordan-content -->
+  </div> <!-- Закрытие .jordan-container -->
+</section> <!-- Закрытие .dunk-container -->
 <? include_once('footer.php');?>
