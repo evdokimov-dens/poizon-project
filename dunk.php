@@ -106,6 +106,34 @@
       <button class="jordan-size-bye-botton">
         <p class="jordan-size-bye-text">Купить</p>
       </button>
+        <div class="jordan-faq-container">
+         <div class="jordan-faq-list">
+           <div class="jordan-faq-item">
+              <button class="jordan-faq-question" aria-expanded="false">
+                <svg class="jordan-faq-icon-logo" width="20" height="20">
+                    <use href="img/sprite.svg#check"></use>
+                 </svg>
+                <span class="jordan-faq-question-text">ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</span>
+               <span class="jordan-faq-icon">
+                 <svg class="jordan-faq-icon-logo" width="18" height="10">
+                    <use href="img/sprite.svg#arrow-que"></use>
+                 </svg>
+                </span>
+             </button>
+             <div class="jordan-faq-answer" aria-hidden="true">
+               <div class="jordan-faq-answer-text">Если вы нашли данную модель где-либо в наличии по
+                    более низкой цене — пришлите нам ссылку на данную
+                    модель в другом магазине. Мы будем рады предложить
+                    вам скидку, компенсирующую разницу в стоимости, и
+                    лучшую цену относительно конкурентов. Обратите
+                    внимание, что акция распространяется только на
+                    российские платформы.
+                </div>
+              </div>
+            </div>
+          </div>   
+        </div>  <!-- Закрытие .jordan-faq -->
+      </div>
     </div> <!-- Закрытие .air-jordan-content -->
   </div> <!-- Закрытие .jordan-container -->
 </section> <!-- Закрытие .dunk-container -->

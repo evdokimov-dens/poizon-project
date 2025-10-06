@@ -1358,6 +1358,7 @@ html {
 }
 .jordan-container {
   display: flex;
+  justify-content: space-between;
   background-color: #f7f7f7;
 }
 .jordan-img-content {
@@ -1400,6 +1401,7 @@ html {
 }
 .air-jordan-content {
   max-width: 511px;
+  margin-right: 71px;
 }
 .air-jordan-text {
   color: var(--text0, #73818e);
