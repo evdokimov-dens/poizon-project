@@ -612,7 +612,6 @@ html {
 }
 .faq-title {
   color: #1f2a37;
-
   font-family: "Inter";
   font-size: 28px;
   font-style: normal;
@@ -1371,7 +1370,6 @@ html {
   grid-column: 1 / 3; /* с колонки 1 по 3 (то есть 1 и 2 колонка) */
   grid-row: 1 / 2; /* первая строка */
   width: 100%;
-  height: auto;
 }
 .jordan-image:nth-child(2) {
   grid-column: 1 / 2; /* первая колонка */
@@ -1500,6 +1498,8 @@ html {
   border-radius: 10px;
   background: var(--text, #1f2a37);
   width: 100%;
+  margin-top: 56px;
+  margin-bottom: 60px;
 }
 .jordan-size-bye-text {
   color: var(--white, #fff);
@@ -1510,4 +1510,78 @@ html {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.jordan-faq-list {
+  display: grid;
+  gap: 6px;
+}
+.jordan-faq-item {
+  border-bottom: 1px solid #d1d5db;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.jordan-faq-item:hover {
+  border-color: #57bfc1;
+}
+.jordan-faq-question {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background-color: #f9f9f9;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  gap: 10px;
+}
+.jordan-faq-question:hover {
+  background-color: #57bfc1;
+}
+.jordan-faq-question-text {
+  flex: 1;
+  color: var(--text, #1f2a37);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+.jordan-faq-item.active .jordan-faq-question-text {
+  font-weight: 700;
+}
+.jordan-faq-icon-logo1 {
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jordan-faq-icon-logo {
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+.jordan-faq-item.active .jordan-faq-icon-logo {
+  transform: rotate(180deg);
+}
+.jordan-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.jordan-faq-item.active .jordan-faq-answer {
+  max-height: 1000px;
+}
+.jordan-faq-arrow-icon {
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jordan-faq-item.active .jordan-faq-arrow-icon {
+  transform: rotate(180deg);
+}
+.jordan-faq-answer-text {
+  padding: 0 15px 15px;
 }
